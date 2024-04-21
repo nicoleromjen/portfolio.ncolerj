@@ -1,0 +1,243 @@
+/*
+Theme Name: Portfolio NRJ
+Text domain: NRJ
+Version: 1.0
+Description: Portfolio Project
+Tags: Project, Nicole 
+Author: Nicole
+*/
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+html {
+    line-height: 1.15;
+}
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    color:#F3F5F7;
+    background-color: #1D1D1B;
+    display: flex;
+}
+
+.header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.offcanvas-body{
+    background-color: #1D1D1B;
+}
+
+.header .nrj_logo{
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+
+.header .nav-item a{
+    font-weight: bold;
+    color: #F3F5F7;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header .nav-item a:hover{
+ font-weight: bold;
+ color: #F3F5F7;
+ color: #67438C;
+
+}
+
+.header .navbar-toggler {
+border: none;
+    padding: .20rem .6rem;
+    color:#67438C;
+
+}
+
+.header .nav-item a{
+       font-weight: bold;
+       color: #F3F5F7;
+       text-decoration: none;
+       margin: 10px;
+}
+
+.header .nav-item a:hover{
+    font-weight: bold;
+    color: #F3F5F7;
+    color: #67438C;
+
+}
+
+.bg_img {
+    background-position: center; 
+    height: 100%; 
+    background-repeat: no-repeat;
+}
+
+.transparent{
+    height: 500px;
+}
+
+.footer{
+    background-color: #1D1D1B;
+    height: 9rem;
+    width:100%;
+    display: flex;
+    position: absolute; 
+    bottom: 0; 
+    z-index: 10;
+}
+
+
+
+.content-wrap {
+    padding-bottom: 9rem;
+  }
+
+.page-container{
+    position: relative;
+    min-height: 100vh; 
+    width:100%;
+    bottom: 0; 
+    z-index: 10;
+}
+
+.footer .nrj_logo{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+
+.footer .menu-item a{
+    color: #F3F5F7;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer  .menu-item a:hover{
+ color: #F3F5F7;
+ color: #67438C;
+
+}
+
+.row0{
+display: flex;
+height: 100px;
+bottom:0;
+}
+
+.line0{
+    height:10px;
+    width: 100%;
+background-color: #67438C;
+position: absolute;
+}
+
+.line1{
+    height:10px;
+    width: 100%;
+background-color: #67438C;
+position: absolute;
+bottom: 0; 
+left: 0; 
+z-index: 10;
+}
+
+.texti{
+    background-color: #F3F5F7;
+    padding-bottom: 1px;
+}
+
+
+.page{
+    width:100%;
+}
+
+.center{
+    background-color: #1D1D1B;
+}
+
+.now{
+    color:#1D1D1B;
+    background-color: #1D1D1B;
+}
+
+.videocv{
+    background-color:#1D1D1B;
+        display: flex;
+        justify-content:center;
+        justify-self: center;
+    }
+    
+
+.nono{
+    margin-top: 1px;
+    background-color: #1D1D1B;
+margin-bottom: 150px;
+    color: #F3F5F7;
+}
+
+    .btn {
+            padding: .20rem .6rem;
+            color:#F3F5F7;
+            font-weight: bold;
+            background-color: #67438C;
+        }
+
+.nam{
+    color: #67438C;
+    font-weight: bold;
+}
+
+
+
+.card{
+    color:#1D1D1B;
+}
+
+.accordion-item{
+    background-color:#1D1D1B;
+}
+
+.accordion-header .accordion-button{
+    background-color: #1D1D1B;
+    color: #F3F5F7;
+    display: block;
+    box-shadow: none;
+}
+
+.card-body{
+    background-color:#F3F5F7;
+}
+
+
+.provid{
+
+        display: flex;
+        justify-content:center;
+        justify-self: center;
+    }
+
+    .exp{
+        color: #67438C;
+        font-weight: bold;
+        background-color: #F3F5F7;
+    }
